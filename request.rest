@@ -1,0 +1,86 @@
+### Profissional
+
+POST http://localhost:3000/api/profissionais
+Content-Type: application/json
+
+{
+    "nome": "teste",
+    "dataNascimento": "1234",
+    "cpf": "1234",
+    "formacaoAcademica": "teste",
+    "especializacao": "teste",
+    "crp": "teste",
+    "rua": "teste",
+    "numeroCasa": "1234",
+    "bairro": "teste",
+    "cidade": "teste",
+    "cep": "1234"
+}
+
+###
+GET http://localhost:3000/api/profissionais
+
+###
+GET http://localhost:3000/api/profissionais/655fcc3cac697ed53a613f37
+
+###
+DELETE http://localhost:3000/api/profissionais/655fcc3cac697ed53a613f37
+
+###
+PUT http://localhost:3000/api/profissionais/655fcb393bd238e1b377ca9b
+Content-Type: application/json
+
+{
+    "nome": "teste Updatte",
+    "dataNascimento": "12345",
+    "cpf": "1234",
+    "formacaoAcademica": "teste",
+    "especializacao": "teste",
+    "crp": "teste",
+    "rua": "teste",
+    "numeroCasa": "1234",
+    "bairro": "teste",
+    "cidade": "teste",
+    "cep": "1234"
+}
+
+### Pacientes
+POST http://localhost:3000/api/pacientes
+Content-Type: application/json
+
+{
+    "nome": "Denis",
+    "dataNascimento": "1234",
+    "cpf": "1234",
+    "responsavel": "teste",
+    "rua": "teste",
+    "numeroCasa": "1234",
+    "bairro": "teste",
+    "cidade": "teste",
+    "cep": "1234"
+}
+
+###
+GET http://localhost:3000/api/pacientes
+
+###
+GET http://localhost:3000/api/pacientes/65652e4b85028092480b1f53
+
+###
+DELETE http://localhost:3000/api/pacientes/65652e6b85028092480b1f55
+
+###
+PUT http://localhost:3000/api/pacientes/65652e6b85028092480b1f55
+Content-Type: application/json
+
+{
+    "nome": "Denis Update",
+    "dataNascimento": "1234",
+    "cpf": "1234",
+    "responsavel": "teste",
+    "rua": "teste",
+    "numeroCasa": "1234",
+    "bairro": "teste",
+    "cidade": "teste",
+    "cep": "1234"
+}
